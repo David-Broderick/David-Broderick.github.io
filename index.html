@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
 	<style>
-	body {
-		font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
-		color: #222222;
-		background: #66bbdd none repeat scroll top left;
-	}
-	.Header h1 {
-		font: normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
-		color: white;
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, .2);
-	}
-	h3 { font:normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color:white; }
-	.block { background-color:white; height:210px; width:60%; padding:1px 10px 0 10px; color:#2288bb; min-width:550px;
-	}
+		body {
+			font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+			color: #222222;
+			background: #66bbdd none repeat scroll top left;
+		}
+		.Header h1 {
+			font: normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+			color: white;
+			text-shadow: -1px -1px 1px rgba(0, 0, 0, .2);
+		}
+		h3 { font:normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color:white; }
+		.block { background-color:white; height:210px;  padding:1px 10px 0 10px; color:#2288bb; min-width:400px; }
+		@media (max-width: 600px) {	.block { width: 90%; height:280px; }	}
+		@media (min-width: 601px) {	.block { width: 75%; height:260px; }	}
+		@media (min-width: 901px) {	.block { width: 60%; height:220px; }	}
 	</style>
   </head>
   <body>
